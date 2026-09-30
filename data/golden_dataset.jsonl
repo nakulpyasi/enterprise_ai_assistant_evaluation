@@ -1,0 +1,5 @@
+{"id":"sql_001","category":"sql","query":"How many support tickets are there?","ground_truth":"There are 5 support tickets.","expected_agents":["sql_agent"]}
+{"id":"rag_001","category":"rag","query":"How long is the warranty for the Acme Hub?","ground_truth":"The Acme Hub has a 2-year warranty.","expected_agents":["rag_agent"]}
+{"id":"rag_002","category":"rag","query":"What is the return period for Acme products?","ground_truth":"Acme products may be returned within 30 days.","expected_agents":["rag_agent"]}
+{"id":"hybrid_001","category":"hybrid","query":"How many support tickets are there and how long is the Acme Hub warranty?","ground_truth":"There are 5 support tickets, and the Acme Hub has a 2-year warranty.","expected_agents":["sql_agent","rag_agent"]}
+{"id":"hybrid_002","category":"hybrid","query":"How many support tickets are there and what is the warranty for the Pro Gateway?","ground_truth":"There are 5 support tickets, and the Pro Gateway has a 3-year warranty.","expected_agents":["sql_agent","rag_agent"]}
